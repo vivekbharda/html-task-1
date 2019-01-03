@@ -2,27 +2,102 @@
 <html>
 <head>
 <title>Rao InfoTech</title>
+<style type="text/css">
+	/*margin 10 px*/
+	.margin-0 {
+		margin: 0px;
+	}
+
+	/*main class of the page*/
+	.main{
+		width: 100%;
+		max-height: 100%; 
+	}
+
+	/*Header*/
+	.header{
+		width: 100%;
+		height: 100px;
+		/*background-color: whitesmoke;*/
+		background-color: lightgrey;
+		
+	}
+
+
+
+
+</style>
 </head>
-<body>
-	<div>
-		<table border="1px solid black" style="width:1200px;height:1000px;padding: 20px;border-collapse: collapse;align-self: center">
-			<tr>
-				<td colspan="2" style="background-color: lightyellow;height: 10px">
-			<div style="background-color:lightyellow ;text-align:center;font-size:10px;font-family:courier"><h1>Rao Infotech</h1></div>
-			<img src="logo-median.png" style="width: 50px;height: 50px;">
-		</td>
-		
-			<tr>
-		<td>
-			
-				</td>
-			<td>
-			</td>
-			</tr>
-		
-	
-	
-</div>
-</table>
+<body class="margin-0">
+	<div class="main" style="background-color: red;" >
+		<div class="header">
+			<div style="background-color: pink; width: 10%; min-height: 100px ;display: inline-block; background-image: url('./logo-median.png')" >
+				<!-- <img src="./logo-median.png" style="width: 100%; height: 100%;" padding="0px"> -->
+			</div>
+			<div style="background-color: yellow; width: 80%; display: inline-block;">
+				<h1 class="margin-0" style="text-align: center;">RAO Info Tech</h1>			
+			</div>
+			<div>
+				<h2 style="padding-left: 20%">Add Employee Details</h2>
+			</div>
+			<div style="width: 70%; background-color: cyan">
+			<div style="width: 50%; background-color: red; float: left">
+				<h3>Name</h3>
+				<input type="text" name="firstname" value="User Name">
+				<br>
+				<h4>Experience
+					<select>
+						<option value="1 Year">1 Year</option>
+						<option value="2 Year">2 Year</option>
+						<option value="3 Year">3 Year</option>
+						<option value="4 Year">4 Year</option>
+					</select>
+				</h4>
+				<h4>Technology</h4>
+				<input type="checkbox" name="Technology 1" value="JavaScript"> JavaScript<br>
+				<input type="checkbox" name="Technology 2" value="PHP"> PHP<br>
+				<input type="checkbox" name="Technology 3" value="Python"> Python 
+			</div>
+			<div style="width: 50%; float: left;background-color: gray">
+				<h4>Last Education</h4>
+				<input type="radio" name="lastEducation" value="B.E" checked> B.E 
+				<input type="radio" name="lastEducation" value="M.E"> M.E
+				<input type="radio" name="lastEducation" value="BCA"> BCA
+				<input type="radio" name="lastEducation" value="Diploma"> Diploma 
+				<form><br>
+					<fieldset>
+						<legend style="text-align: center;">Contact Details</legend>
+						Email: <input type="text" name="" value="Enter Your Email"><br>
+						Phone: <input type="text" name="" value="Enter Your Contact No"><br>
+						Skype: <input type="text" name="" value="Enter Your Skype">
+						<br>
+						<br>
+						<br>
+						<br>
+					</fieldset>
+				</form> 
+			</div>
+			</div>
+			<div style="width: 30%; background-color: green; float: left; text-align: center;">
+				<h2><span style="color: red">N</span><span style="color: yellow;font-size: 15px">O</span><span style="color: blue">T</span><span style="font-size: 15px">I</span>C<span style="font-size: 15px">E</span> B<span style="font-size: 15px">O</span>A<span style="font-size: 15px">R</span>D</h2>
+				<ul style="list-style-type:circle">
+					<li style="text-align: left">Point-1</li>
+				</ul>
+				<ol type="I">
+					<li style="text-align: left">Sub-Point-1</li>
+					<li style="text-align: left">Sub-Point-2</li>
+					<li style="text-align: left">Sub-Point-3</li>
+				</ol>
+					<ul style="list-style-type:circle">
+					<li style="text-align: left">Point-2</li>
+				</ul>
+					<ol type="I">
+					<li style="text-align: left">Sub-Point-2-1</li>
+					<li style="text-align: left">Sub-Point-2-2</li>
+					<li style="text-align: left">Sub-Point-2-3</li>
+				</ol>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
