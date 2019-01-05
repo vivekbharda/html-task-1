@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/bootstarp.css">
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstarp.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid col-container">
+		<div class="row" style="background-color: orange">
+			<div class="col-md-3 col-xs-3">
+				<img src="logo-median.png" class="img-rounded logo-size">
+			</div>
+			<div class="col-md-9 col-xs-9">
+				<h1 class="header-size-font">Rao Info Tech</h1>
+			</div>
+		</div>
+	<section> 
+		<div class="container-fluid">
+		<div class="row" style="background-color: #C6BFBE;" >
+			<div class="col-md-8 col-container">
+				<div class="row">
+					
+					<div class="col-md-12">
+						<h2 class="text-center well">Add Employee Details</h2>
+					</div>
+				</div>
+				<form>
+					<div class="row">
+						<div class="col-md-6" style="background-color: #C54E4E">	
+							<div class="form-group email-1st">
+								<label for="email">Name:</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter Your Name" name="email">
+							</div>
+							<h5><b>Experiance:</b></h5>
+							<div class="form-group">
+								<select class="form-control" id="sel1">
+									<option>1 Year</option>
+									<option>2 Year</option>
+									<option>3 Year</option>
+									<option>4 Year</option>
+								</select>
+							</div>
+							<h5><b>Technology</b></h5>
+							<div class="checkbox">
+								<label><input type="checkbox" value="">Javascript</label>
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" value="">PHP</label>
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" value="">Python</label>
+							</div>
+						</div>
+						<div class="col-md-6 dashed-border-left">
+							<h5><b>Last Education</b></h5>
+							<label class="radio-inline">
+								<input type="radio" name="education" checked>B.E
+							</label>
+							<label class="radio-inline">
+								<input type="radio" name="education">M.E
+							</label>
+							<label class="radio-inline">
+								<input type="radio" name="education">BCA
+							</label>
+							<label class="radio-inline">
+								<input type="radio" name="education">Diploma
+							</label>
+							<br>
+							<fieldset class="fieldset-border">
+								<legend class="text-center legend-width">Contact Details</legend>
+								Email:<input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email">
+								Phone:<input type="email" class="form-control" id="email" placeholder="Enter Your Contact No" name="email">
+								Skype:<input type="email" class="form-control" id="email" placeholder="Enter Your Skype" name="email">
+							</fieldset>
+						</div>
+						<div class="text-center">
+							<button class="btn btn-primary padding-add-details">Add Details</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-4 col-container">
+				<h2 class="text-center margin-noticeboard well"><span style="color: red">N</span><span style="color:  green; font-size: 20px">O</span><span style="color: blue;">T</span><span style="font-size: 20px">I</span>C<span style="font-size: 20px">E</span> B<span style="font-size: 20px">O</span>A<span style="font-size: 20px">R</span>D</h2>
+				<ul class="list-group" data-toggle="collapse" data-target="#demo">
+					<li class="list-group-item space-point">Point-1
+						<ul id="demo" class="collapse list-group">
+							<li class="list-group-item">Sub-Point-1</li>
+							<li class="list-group-item">Sub-Point-2</li>
+							<li class="list-group-item">Sub-Point-3</li>
+						</ul>
+					</li>
+					
+				</ul>
+				<ul class="list-group" data-toggle="collapse" data-target="#demo1">
+					<li class="list-group-item">Point-2
+						<ul id="demo1" class="collapse list-group">
+							<li class="list-group-item">Sub-Point-2-1</li>
+							<li class="list-group-item">Sub-Point-2-2</li>
+							<li class="list-group-item">Sub-Point-2-3</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	</div>
+</body>
+</html>
